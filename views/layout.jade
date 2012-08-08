@@ -2,9 +2,9 @@ doctype 5
 html(lang='en')
   head
     title= title
-    link(rel='stylesheet', href='/requestdump/css/bootstrap.min.css')
-    link(rel='stylesheet', href='/requestdump/css/screen.css')
-    link(rel='stylesheet', href='/requestdump/css/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='#{asset_prefix}/css/bootstrap.min.css')
+    link(rel='stylesheet', href='#{asset_prefix}/css/screen.css')
+    link(rel='stylesheet', href='#{asset_prefix}/css/bootstrap-responsive.min.css')
   body
     block content
-    script(src='/requestdump/js/bootstrap.min.js')
+    script(src='#{asset_prefix}/js/bootstrap.min.js')
