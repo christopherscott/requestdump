@@ -4,6 +4,9 @@
  */
 
 exports.index = function(req, res){
-  console.log(req.headers['user-agent']);
-  res.render('index', { headers: req.headers, title: 'Request Dump' });
+  res.render('index', {
+    headers: req.headers,
+    asset_prefix: process.env.ASSET_PREFIX || '',
+    title: 'Request Dump'
+  });
 };
