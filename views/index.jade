@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          h1
+            a.brand(href='#')= title
+    .container
+      .page-header 
+        h1 Headers 
+          small Like, from your HTTP request, ya know?
+      .row
+        .span12
+          table.table.table-striped.table-bordered
+            tbody
+            each data, name in headers
+              tr
+                td
+                  code= name
+                if name == 'cookie'
+                  td
+                    .span8.well.nowrap= data
+                else
+                  td= data
+
