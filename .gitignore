@@ -1,4 +1,4 @@
 node_modules/
 out.log
 err.log
-
+npm-debug.log
