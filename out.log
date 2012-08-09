@@ -19,3 +19,26 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/537.4 (KHTML, like Ge
 [90mGET /css/screen.css [36m304 [90m1ms[0m
 [90mGET /css/bootstrap-responsive.min.css [36m304 [90m2ms[0m
 [90mGET /js/bootstrap.min.js [36m304 [90m1ms[0m
+Express server listening on port 3000
+Express server listening on port 26675
+[90mGET / [32m200 [90m154ms - 1.91kb[0m
+[90mGET / [32m200 [90m35ms - 1.98kb[0m
+[90mGET / [32m200 [90m10ms - 1.97kb[0m
+Express server listening on port 26675,
+Express server listening on port 26675
+Express server listening on port 26675
+[90mGET / [32m200 [90m172ms - 1.96kb[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m16ms[0m
+[90mGET /css/screen.css [36m304 [90m9ms[0m
+[90mGET /css/bootstrap-responsive.min.css [36m304 [90m9ms[0m
+[90mGET /js/bootstrap.min.js [36m304 [90m16ms[0m
+[90mGET / [32m200 [90m19ms - 1.73kb[0m
+[90mGET /css/screen.css [32m200 [90m17ms - 265[0m
+[90mGET /css/bootstrap-responsive.min.css [32m200 [90m28ms - 10.38kb[0m
+[90mGET /css/bootstrap.min.css [32m200 [90m34ms - 81.03kb[0m
+[90mGET /js/bootstrap.min.js [32m200 [90m32ms - 21.81kb[0m
+[90mGET / [32m200 [90m11ms - 2.02kb[0m
+[90mGET /css/screen.css [32m200 [90m1ms - 265[0m
+[90mGET /css/bootstrap.min.css [32m200 [90m3ms - 81.03kb[0m
+[90mGET /css/bootstrap-responsive.min.css [32m200 [90m2ms - 10.38kb[0m
+[90mGET /js/bootstrap.min.js [32m200 [90m2ms - 21.81kb[0m

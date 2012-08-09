@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "export PORT=26675, ASSET_PREFIX=/requestdump; forever -al forever.log -o out.log -e err.log requestdump.js"
   },
   "dependencies": {
     "express": "3.0.0rc1",
